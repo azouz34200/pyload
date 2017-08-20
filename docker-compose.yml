@@ -1,0 +1,6 @@
+pyload:
+ image: pyload
+ ports:
+  - 80:80
+ volumes:
+  - /mnt/data/incoming:/opt/pyload/.pyload/Downloads
