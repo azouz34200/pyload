@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER Mickael AZEMA "mickael@azema.net"
+LABEL MAINTAINER="Mickael AZEMA mickael@azema.net"
 
 RUN apt-get update && apt-get clean
 
